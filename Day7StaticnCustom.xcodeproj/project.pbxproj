@@ -19,6 +19,9 @@
 		9BD4DE6A22371FD300B11DEA /* help.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD4DE6822371FD300B11DEA /* help.png */; };
 		9BD4DE6B22371FD300B11DEA /* logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD4DE6922371FD300B11DEA /* logout.png */; };
 		9BD4DE6D2237202900B11DEA /* orders.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BD4DE6C2237202900B11DEA /* orders.png */; };
+		9BD4DE6F223720CB00B11DEA /* StudentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD4DE6E223720CB00B11DEA /* StudentInfoViewController.swift */; };
+		9BD4DE722237236600B11DEA /* StudentDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD4DE712237236600B11DEA /* StudentDetailsTableViewCell.swift */; };
+		9BD4DE742237303000B11DEA /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BD4DE732237303000B11DEA /* Student.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		9BD4DE6822371FD300B11DEA /* help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = help.png; path = ../../../Downloads/help.png; sourceTree = "<group>"; };
 		9BD4DE6922371FD300B11DEA /* logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = logout.png; path = ../../../Downloads/logout.png; sourceTree = "<group>"; };
 		9BD4DE6C2237202900B11DEA /* orders.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = orders.png; path = ../../../Downloads/orders.png; sourceTree = "<group>"; };
+		9BD4DE6E223720CB00B11DEA /* StudentInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentInfoViewController.swift; sourceTree = "<group>"; };
+		9BD4DE712237236600B11DEA /* StudentDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		9BD4DE732237303000B11DEA /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,7 @@
 		9BD4DE4D2237149700B11DEA /* Day7StaticnCustom */ = {
 			isa = PBXGroup;
 			children = (
+				9BD4DE702237234200B11DEA /* custom cell */,
 				9BD4DE4E2237149700B11DEA /* AppDelegate.swift */,
 				9BD4DE502237149700B11DEA /* MenuTableViewController.swift */,
 				9BD4DE522237149700B11DEA /* Main.storyboard */,
@@ -81,8 +88,18 @@
 				9BD4DE6822371FD300B11DEA /* help.png */,
 				9BD4DE6922371FD300B11DEA /* logout.png */,
 				9BD4DE6C2237202900B11DEA /* orders.png */,
+				9BD4DE6E223720CB00B11DEA /* StudentInfoViewController.swift */,
+				9BD4DE732237303000B11DEA /* Student.swift */,
 			);
 			path = Day7StaticnCustom;
+			sourceTree = "<group>";
+		};
+		9BD4DE702237234200B11DEA /* custom cell */ = {
+			isa = PBXGroup;
+			children = (
+				9BD4DE712237236600B11DEA /* StudentDetailsTableViewCell.swift */,
+			);
+			path = "custom cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +180,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BD4DE722237236600B11DEA /* StudentDetailsTableViewCell.swift in Sources */,
 				9BD4DE512237149700B11DEA /* MenuTableViewController.swift in Sources */,
+				9BD4DE6F223720CB00B11DEA /* StudentInfoViewController.swift in Sources */,
+				9BD4DE742237303000B11DEA /* Student.swift in Sources */,
 				9BD4DE4F2237149700B11DEA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

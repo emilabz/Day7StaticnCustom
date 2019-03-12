@@ -19,6 +19,10 @@ class MenuTableViewController:UITableViewController {
         if indexPath.section == 0{
             switch indexPath.row {
             case 0: print("Go to home")
+                let sb=UIStoryboard(name: "Main", bundle: nil)
+                let studDetailVC=sb.instantiateViewController(withIdentifier: "studDetailVC") as! StudentInfoViewController
+                self.navigationController?.pushViewController(studDetailVC, animated: true)
+
             case 1:print("Go to Products Page")
             case 2:print("Go to Order History")
             default:print("Invalid choice")
